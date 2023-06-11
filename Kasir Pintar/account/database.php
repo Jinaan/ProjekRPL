@@ -517,9 +517,9 @@
                                 <div class="dataTables_scrollHead"
                                     style="overflow: hidden; position: relative; border: 0px; width: 100%;">
                                     <div class="dataTables_scrollHeadInner"
-                                        style="box-sizing: content-box; width: 1628px; padding-right: 0px;">
+                                        style="box-sizing: content-box; width: 100%; padding-right: 0px;">
                                         <table class="table datatable mdl-data-table dataTable no-footer" cellspacing="0"
-                                            nwidth="100%" role="grid" style="width: 1628px; float: left; margin-left: 0px;">
+                                            nwidth="100%" role="grid" style="width: 100%; float: left; margin-left: 0px;">
                                             <thead class="tb-border">
                                                 <tr role="row">
                                                     <td class="tb-head select-checkbox sorting_disabled" rowspan="1"
