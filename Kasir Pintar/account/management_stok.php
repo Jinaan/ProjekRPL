@@ -359,11 +359,10 @@
                                 <div class="dataTables_scrollHead"
                                     style="overflow: hidden; position: relative; border: 0px; width: 100%;">
                                     <div class="dataTables_scrollHeadInner"
-                                        style="box-sizing: content-box; width: 1628px; padding-right: 0px;">
+                                        style="box-sizing: content-box; width: 100%; padding-right: 0px;">
                                         <table class="table datatable mdl-data-table dataTable no-footer" role="grid"
-                                            style="margin-left: 0px; width: 1628px;">
+                                            style="margin-left: 0px; width: 100%;">
                                             <thead class="tb-border">
-
                                                 <tr role="row">
                                                     <!-- <td class="sorting_disabled" rowspan="1" colspan="1"
                                                         style="width: 88px;" aria-label=""></td> -->
