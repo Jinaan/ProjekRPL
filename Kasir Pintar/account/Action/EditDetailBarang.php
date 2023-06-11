@@ -242,29 +242,29 @@
             <div class="sidebar-wrapper">
                 <div class="logo">
                     <a class="simple-text logo-normal"><img
-                            src="../images/kasirpintarLogo.webp"
+                            src="../../images/kasirpintarLogo.webp"
                             style="padding-left: 30px; padding-right: 30px; width: 100%" alt="logo kasir pintar"></a>
                 </div>
 
                 <ul class="nav" id="accordion">
 
-                    <?php if ($_SESSION['posisi'] == 'admin' || $_SESSION['posisi'] == 'pemilik') { ?>
+                    <?php if ($_SESSION['posisi'] == 'admin' || $_SESSION['posisi'] == 'pemilik' || $_SESSION['posisi'] == 'Admin' || $_SESSION['posisi'] == 'Pemilik') { ?>
                         <li class="">
-                            <a href="../account/monitoring.php">
+                            <a href="../../account/monitoring.php">
                                 <p class="upper-text">Dashboard</p>
                             </a>
                         </li>
                     <?php } ?>
 
-                    <?php if ($_SESSION['posisi'] == 'pemilik' || $_SESSION['posisi'] == 'kasir') { ?>
+                    <?php if ($_SESSION['posisi'] == 'pemilik' || $_SESSION['posisi'] == 'kasir' || $_SESSION['posisi'] == 'Pemilik' || $_SESSION['posisi'] == 'Kasir') { ?>
                         <li class="">
-                            <a href="../account/Kasir.php">
+                            <a href="../../account/Kasir.php">
                                 <p class="upper-text">Kasir</p>
                             </a>
                         </li>
                     <?php } ?>
 
-                    <?php if ($_SESSION['posisi'] == 'admin' || $_SESSION['posisi'] == 'gudang' || $_SESSION['posisi'] == 'pemilik') { ?>
+                    <?php if ($_SESSION['posisi'] == 'admin' || $_SESSION['posisi'] == 'gudang' || $_SESSION['posisi'] == 'Pemilik' || $_SESSION['posisi'] == 'Admin' || $_SESSION['posisi'] == 'Gudang' || $_SESSION['posisi'] == 'pemilik') { ?>
                         <li class="panel">
                             <a data-toggle="collapse" href="#dataBarang" data-parent="#accordion">
                                 <p class="upper-text">Database <span class="caret" style="float: right;"></span></p>
@@ -272,17 +272,17 @@
                             <div class="collapse bg-green-dark" id="dataBarang">
                                 <ul class="nav" id="accordionSub">
                                     <li class="side-menu">
-                                        <a href="../account/database.php">
+                                        <a href="../../account/database.php">
                                             <p>Barang atau Jasa</p>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="../account/management_stok.php">
+                                        <a href="../../account/management_stok.php">
                                             <p>Manajemen Stok</p>
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a href="../account/kategori.php">
+                                        <a href="../../account/kategori.php">
                                             <p>Kategori</p>
                                         </a>
                                     </li>
@@ -298,12 +298,12 @@
                         <div class="collapse bg-green-dark" id="pengaturan">
                             <ul class="nav" id="accordionSub">
                                 <li class="">
-                                    <a href="../account/profil.php">
+                                    <a href="../../account/profil.php">
                                         <p>Profil</p>
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="../account/changepassword.php">
+                                    <a href="../../account/changepassword.php">
                                         <p>Ganti Password</p>
                                     </a>
                                 </li>
