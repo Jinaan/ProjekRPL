@@ -233,7 +233,7 @@
 
                 <ul class="nav" id="accordion">
 
-                    <?php if ($_SESSION['posisi'] == 'admin' || $_SESSION['posisi'] == 'pemilik') { ?>
+                    <?php if ($_SESSION['posisi'] == 'admin' || $_SESSION['posisi'] == 'pemilik' || $_SESSION['posisi'] == 'Admin' || $_SESSION['posisi'] == 'Pemilik') { ?>
                         <li class="">
                             <a href="../account/monitoring.php">
                                 <p class="upper-text">Dashboard</p>
@@ -241,7 +241,7 @@
                         </li>
                     <?php } ?>
 
-                    <?php if ($_SESSION['posisi'] == 'pemilik' || $_SESSION['posisi'] == 'kasir') { ?>
+                    <?php if ($_SESSION['posisi'] == 'pemilik' || $_SESSION['posisi'] == 'kasir' || $_SESSION['posisi'] == 'Pemilik' || $_SESSION['posisi'] == 'Kasir') { ?>
                         <li class="">
                             <a href="../account/Kasir.php">
                                 <p class="upper-text">Kasir</p>
@@ -249,7 +249,7 @@
                         </li>
                     <?php } ?>
 
-                    <?php if ($_SESSION['posisi'] == 'admin' || $_SESSION['posisi'] == 'gudang' || $_SESSION['posisi'] == 'pemilik') { ?>
+                    <?php if ($_SESSION['posisi'] == 'admin' || $_SESSION['posisi'] == 'gudang' || $_SESSION['posisi'] == 'Pemilik' || $_SESSION['posisi'] == 'Admin' || $_SESSION['posisi'] == 'Gudang' || $_SESSION['posisi'] == 'pemilik') { ?>
                         <li class="panel">
                             <a data-toggle="collapse" href="#dataBarang" data-parent="#accordion">
                                 <p class="upper-text">Database <span class="caret" style="float: right;"></span></p>
