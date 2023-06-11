@@ -1,0 +1,22 @@
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.loader-custom {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.three-quarters-loader:not(:required) {
+    animation: three-quarters-loader 1700ms infinite linear;
+    border: 8px solid #1cc99f;
+    border-right-color: transparent;
+}
